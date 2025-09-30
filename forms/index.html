@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+    <form action="/submit-form" id="registrationForm" method="POST">
+      <div>
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          minlength="3"
+          maxlength="15"
+        />
+        <span class="error" id="usernameError"></span>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" is="email" name="email" required />
+        <span class="error" id="emailError"></span>
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password required minlength=6"
+        />
+        <span class="error" id="passwordError"></span>
+      </div>
+      <div>
+        <input type="submit" value="Register" />
+      </div>
+    </form>
+  </body>
+</html>
