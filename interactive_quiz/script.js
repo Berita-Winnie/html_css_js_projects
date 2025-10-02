@@ -12,6 +12,11 @@ function checkAnswer() {
   if (userAnswer === correctAnswer) {
     feedback.textContent = 'Correc! well done.'
   } else if (!userAnswer === correctAnswer) {
-    feedback.textContent = "That's incorrect. Try again!."
-  }
+      feedback.textContent = "That's incorrect. Try again!."
+      
+    }
+    
+    //Add an Event Listener to the submit button
+    submitButton.addEventListener("click",checkAnswer)
 }
+
