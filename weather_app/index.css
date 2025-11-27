@@ -54,9 +54,7 @@ body {
 }
 
 .weather {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: none;
 }
 .weather-icon {
   width: 170px;
