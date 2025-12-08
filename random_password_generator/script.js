@@ -1,5 +1,6 @@
 const passwordBox = document.getElementById('password')
 const generateBtn = document.getElementById('generate')
+const copyIcon = document.getElementById('copy')
 const length = 12
 
 const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -20,4 +21,10 @@ function createPassword() {
   }
   passwordBox.value = password
 }
+
+function copyPassword() {
+  passwordBox.select()
+  document.execCommand('copy')
+}
 generateBtn.addEventListener('click', createPassword)
+copyIcon.addEventListener('click', copyPassword)
