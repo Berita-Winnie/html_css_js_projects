@@ -1,6 +1,6 @@
 # HTML, CSS & JavaScript Projects ✨
 
-This repository contains a collection of front-end projects built using **HTML, CSS, and JavaScript**. The projects are designed to strengthen practical skills in modern web development and improve problem-solving through hands-on implementation 🌸
+This repository contains a collection of front-end projects built using **HTML, CSS, and JavaScript**. The projects are designed to strengthen practical skills in modern web development and improve problem-solving through hands-on implementation 
 
 ---
 
@@ -15,7 +15,7 @@ This repository serves as a portfolio of practice projects focused on core front
 - Interactive functionality with JavaScript 
 - Animations and transitions  
 
-Each project is organized in its own folder for clarity and easy navigation 🌸.
+Each project is organized in its own folder for clarity and easy navigation.
 
 ---
 
